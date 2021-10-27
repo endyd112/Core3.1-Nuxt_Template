@@ -13,8 +13,10 @@ Canvas2D Lib : Konva latest
 # 사용법
 
 1. 명령어 프롬프트에서 프로젝트 경로 내 ClientApp 으로 이동 후 명령어 입력 "npm i" 
-2. "npm run build" > "npm run generate"
-3. VS2019 에서 프로젝트 로드 후 dotNet Core로 실행
+2. "npm run build" 
+3. "npm run generate"
+4. VS2019 에서 프로젝트 로드 후 dotNet Core로 실행
+5. localhost:8080 접속
 
 
 ![20211027_090450](https://user-images.githubusercontent.com/26294051/138978071-a673539b-836e-4ce4-a0cc-a29fb45d62a0.png)
