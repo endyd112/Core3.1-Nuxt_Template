@@ -20,3 +20,19 @@ Canvas2D Lib : Konva latest
 
 
 ![20211027_090450](https://user-images.githubusercontent.com/26294051/138978071-a673539b-836e-4ce4-a0cc-a29fb45d62a0.png)
+
+
+# 공유 메모리 접근
+
+    using VueJSDotnet51_Demo.Helper.*
+    using VueJSDotnet51_Demo.Structure.*
+
+    1. Get Handle 
+
+    var handle = GetMappedFileHandle("MEM_STS");
+
+
+    2. Mashalling
+
+    CURRENT_STATUS ret = (CURRENT_STATUS)Marshal.PtrToStructure(handle, typeof(CURRENT_STATUS));
+
