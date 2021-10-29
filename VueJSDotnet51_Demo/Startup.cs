@@ -6,9 +6,8 @@ using Microsoft.Extensions.Hosting;
 using System.Runtime.InteropServices;
 using VueCliMiddleware;
 using VueJSDotnet51_Demo.Helper;
-using VueJSDotnet51_Demo.Structure;
 using static VueJSDotnet51_Demo.Structure.SMD_Struct;
-using static VueJSDotnet51_Demo.Structure.Struct;
+
 
 namespace VueJSDotnet51_Demo
 {
