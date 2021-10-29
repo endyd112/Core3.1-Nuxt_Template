@@ -29,10 +29,10 @@ Canvas2D Lib : Konva latest
 
     1. Get Handle 
 
-    var handle = GetMappedFileHandle("MEM_STS");
+     var hBASIC_CFG = SharedMem.GetMappedFileHandle("MEM_BASIC");
 
 
     2. Mashalling
 
-    CURRENT_STATUS ret = (CURRENT_STATUS)Marshal.PtrToStructure(handle, typeof(CURRENT_STATUS));
+    var tmp = (BASIC_CFG)Marshal.PtrToStructure(hBASIC_CFG, typeof(BASIC_CFG));
 

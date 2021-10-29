@@ -11,7 +11,7 @@ namespace VueJSDotnet51_Demo.Helper
         public static IntPtr hMemProc = IntPtr.Zero;
 
 
-        static IntPtr GetMappedFileHandle(string hName)
+        public static IntPtr GetMappedFileHandle(string hName)
         {
             IntPtr ret = IntPtr.Zero;
 
